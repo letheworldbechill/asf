@@ -1,0 +1,1935 @@
+{
+  "schweizer_kmu": {
+    "name": "Schweizer KMU Landing",
+    "description": "Klassische Schweizer KMU Landingpage",
+    "industry": "kmu",
+    "icon": "🇨🇭",
+    "components": {
+      "header": {
+        "enabled": true,
+        "data": {
+          "companyName": "Muster Firma AG",
+          "logoText": "Muster Firma",
+          "navLinks": [
+            {
+              "label": "Leistungen",
+              "href": "#services"
+            },
+            {
+              "label": "Über uns",
+              "href": "#about"
+            },
+            {
+              "label": "Kontakt",
+              "href": "#contact"
+            }
+          ],
+          "ctaText": "Offerte anfragen",
+          "ctaLink": "#contact"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "data": {
+          "headline": "Ihr Partner für zuverlässige Lösungen",
+          "subheadline": "Schweizer Qualität. Persönlicher Service. Transparente Prozesse.",
+          "primaryCtaText": "Beratung buchen",
+          "primaryCtaLink": "#contact",
+          "secondaryCtaText": "Mehr erfahren",
+          "secondaryCtaLink": "#services",
+          "image": null,
+          "badgeText": "Seit 2010 in der Schweiz"
+        }
+      },
+      "trust": {
+        "enabled": true,
+        "data": {
+          "title": "Vertrauen durch Erfahrung",
+          "logos": [
+            {
+              "name": "Swiss Made",
+              "icon": "🇨🇭"
+            },
+            {
+              "name": "ISO 9001",
+              "icon": "✅"
+            },
+            {
+              "name": "Top Rated",
+              "icon": "⭐"
+            },
+            {
+              "name": "Sicher",
+              "icon": "🔒"
+            }
+          ]
+        }
+      },
+      "authority": {
+        "enabled": true,
+        "data": {
+          "title": "Warum Kunden uns wählen",
+          "stats": [
+            {
+              "value": "500+",
+              "label": "Zufriedene Kunden"
+            },
+            {
+              "value": "98%",
+              "label": "Weiterempfehlung"
+            },
+            {
+              "value": "24h",
+              "label": "Antwortzeit"
+            }
+          ],
+          "badges": [
+            {
+              "title": "Schweizer Unternehmen",
+              "text": "Lokal verankert"
+            },
+            {
+              "title": "Transparente Preise",
+              "text": "Keine Überraschungen"
+            },
+            {
+              "title": "Persönlicher Support",
+              "text": "Direkter Kontakt"
+            }
+          ]
+        }
+      },
+      "services": {
+        "enabled": true,
+        "data": {
+          "title": "Unsere Leistungen",
+          "subtitle": "Massgeschneiderte Lösungen für Ihr Unternehmen",
+          "services": [
+            {
+              "title": "Beratung",
+              "description": "Professionelle Beratung und Analyse Ihrer Bedürfnisse",
+              "icon": "💡"
+            },
+            {
+              "title": "Umsetzung",
+              "description": "Effiziente Umsetzung mit Schweizer Präzision",
+              "icon": "⚙️"
+            },
+            {
+              "title": "Support",
+              "description": "Langfristige Betreuung und Wartung",
+              "icon": "🛠️"
+            },
+            {
+              "title": "Optimierung",
+              "description": "Kontinuierliche Verbesserung und Anpassung",
+              "icon": "📈"
+            }
+          ]
+        }
+      },
+      "proofTable": {
+        "enabled": true,
+        "data": {
+          "title": "Unser Versprechen",
+          "rows": [
+            {
+              "feature": "Antwortzeit",
+              "value": "Innerhalb 24 Stunden"
+            },
+            {
+              "feature": "Beratung",
+              "value": "Kostenloses Erstgespräch"
+            },
+            {
+              "feature": "Transparenz",
+              "value": "Klare Offerten"
+            },
+            {
+              "feature": "Qualität",
+              "value": "Schweizer Standards"
+            }
+          ]
+        }
+      },
+      "process": {
+        "enabled": true,
+        "data": {
+          "title": "So arbeiten wir",
+          "steps": [
+            {
+              "title": "1. Analyse",
+              "text": "Wir verstehen Ihre Anforderungen"
+            },
+            {
+              "title": "2. Konzept",
+              "text": "Wir erstellen eine massgeschneiderte Lösung"
+            },
+            {
+              "title": "3. Umsetzung",
+              "text": "Wir liefern sauber und termingerecht"
+            },
+            {
+              "title": "4. Betreuung",
+              "text": "Wir bleiben Ihr Partner"
+            }
+          ]
+        }
+      },
+      "benefits": {
+        "enabled": true,
+        "data": {
+          "title": "Ihre Vorteile",
+          "benefits": [
+            {
+              "title": "Schweizer Qualität",
+              "text": "Höchste Standards und Präzision",
+              "icon": "🇨🇭"
+            },
+            {
+              "title": "Persönlicher Service",
+              "text": "Direkter Kontakt und individuelle Betreuung",
+              "icon": "🤝"
+            },
+            {
+              "title": "Transparente Preise",
+              "text": "Faire Offerten ohne versteckte Kosten",
+              "icon": "💎"
+            },
+            {
+              "title": "Schnelle Umsetzung",
+              "text": "Effiziente Prozesse und termingerechte Lieferung",
+              "icon": "⚡"
+            }
+          ]
+        }
+      },
+      "team": {
+        "enabled": true,
+        "data": {
+          "title": "Unser Team",
+          "subtitle": "Erfahrene Experten für Ihr Projekt",
+          "members": [
+            {
+              "name": "Max Muster",
+              "role": "Geschäftsführer",
+              "bio": "15 Jahre Erfahrung in der Branche",
+              "image": null
+            },
+            {
+              "name": "Anna Beispiel",
+              "role": "Projektleitung",
+              "bio": "Spezialistin für Kundenbetreuung",
+              "image": null
+            },
+            {
+              "name": "Tom Test",
+              "role": "Technik",
+              "bio": "Experte für technische Umsetzung",
+              "image": null
+            }
+          ]
+        }
+      },
+      "gallery": {
+        "enabled": false,
+        "data": {
+          "title": "Referenzen",
+          "images": [
+            {
+              "src": null,
+              "alt": "Projekt 1"
+            },
+            {
+              "src": null,
+              "alt": "Projekt 2"
+            },
+            {
+              "src": null,
+              "alt": "Projekt 3"
+            }
+          ]
+        }
+      },
+      "testimonials": {
+        "enabled": true,
+        "data": {
+          "title": "Was Kunden sagen",
+          "testimonials": [
+            {
+              "quote": "Sehr professionell und zuverlässig. Wir sind begeistert!",
+              "name": "Peter Kunde",
+              "role": "CEO, Beispiel AG",
+              "rating": 5
+            },
+            {
+              "quote": "Top Service und faire Preise. Absolut empfehlenswert.",
+              "name": "Sarah Unternehmerin",
+              "role": "Inhaberin, KMU GmbH",
+              "rating": 5
+            },
+            {
+              "quote": "Schnelle Umsetzung und sehr gute Kommunikation.",
+              "name": "Markus Geschäftsführer",
+              "role": "GF, Firma GmbH",
+              "rating": 5
+            }
+          ]
+        }
+      },
+      "faq": {
+        "enabled": true,
+        "data": {
+          "title": "Häufige Fragen",
+          "faqs": [
+            {
+              "question": "Wie schnell erhalten wir eine Offerte?",
+              "answer": "In der Regel innerhalb von 24 Stunden nach dem Erstgespräch."
+            },
+            {
+              "question": "Arbeiten Sie in der ganzen Schweiz?",
+              "answer": "Ja, wir betreuen Kunden in der gesamten Schweiz."
+            },
+            {
+              "question": "Gibt es eine Mindestvertragsdauer?",
+              "answer": "Nein, unsere Leistungen sind flexibel und bedarfsgerecht."
+            },
+            {
+              "question": "Bieten Sie Support nach Projektabschluss?",
+              "answer": "Ja, wir bieten langfristige Betreuung und Wartung an."
+            }
+          ]
+        }
+      },
+      "cta": {
+        "enabled": true,
+        "data": {
+          "title": "Bereit für Ihr Projekt?",
+          "subtitle": "Lassen Sie uns gemeinsam Ihre Ziele erreichen",
+          "ctaText": "Jetzt beraten lassen",
+          "ctaLink": "#contact",
+          "noteText": "Kostenloses Erstgespräch, unverbindlich"
+        }
+      },
+      "stickyCta": {
+        "enabled": false,
+        "data": {
+          "text": "Offerte anfragen",
+          "link": "#contact"
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "data": {
+          "companyName": "Muster Firma AG",
+          "address": "Musterstrasse 1, 8000 Zürich",
+          "phone": "+41 44 XXX XX XX",
+          "email": "info@musterfirma.ch",
+          "links": [
+            {
+              "label": "Impressum",
+              "href": "/impressum"
+            },
+            {
+              "label": "Datenschutz",
+              "href": "/datenschutz"
+            }
+          ],
+          "social": {
+            "linkedin": "#",
+            "facebook": "",
+            "instagram": ""
+          }
+        }
+      },
+      "cookie": {
+        "enabled": true,
+        "data": {
+          "title": "Cookies & Datenschutz",
+          "text": "Wir verwenden Cookies, um die Nutzung zu verbessern. Du kannst deine Auswahl jederzeit anpassen.",
+          "acceptText": "Alle akzeptieren",
+          "rejectText": "Nur notwendige",
+          "settingsText": "Einstellungen",
+          "privacyLink": "/datenschutz"
+        }
+      }
+    },
+    "theme": {
+      "primary": "#0f766e",
+      "accent": "#f59e0b",
+      "bg": "#ffffff",
+      "surface": "#f8fafc",
+      "text": "#0f172a",
+      "textLight": "#64748b",
+      "radius": "rounded",
+      "darkMode": false,
+      "fontStack": "system"
+    }
+  },
+  "treuhand": {
+    "name": "Treuhand / Buchhaltung",
+    "description": "Treuhand, Steuerberatung, Buchhaltung",
+    "industry": "treuhand",
+    "icon": "📒",
+    "components": {
+      "header": {
+        "enabled": true,
+        "data": {
+          "companyName": "Treuhand Muster GmbH",
+          "logoText": "Treuhand Muster",
+          "navLinks": [
+            {
+              "label": "Dienstleistungen",
+              "href": "#services"
+            },
+            {
+              "label": "Team",
+              "href": "#team"
+            },
+            {
+              "label": "Kontakt",
+              "href": "#contact"
+            }
+          ],
+          "ctaText": "Termin vereinbaren",
+          "ctaLink": "#contact"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "data": {
+          "headline": "Treuhand & Steuern. Klar. Sicher. Schweizerisch.",
+          "subheadline": "Buchhaltung, Steuern, Lohn – alles aus einer Hand.",
+          "primaryCtaText": "Erstgespräch buchen",
+          "primaryCtaLink": "#contact",
+          "secondaryCtaText": "Leistungen ansehen",
+          "secondaryCtaLink": "#services",
+          "image": null,
+          "badgeText": "Diskret & rechtskonform"
+        }
+      },
+      "trust": {
+        "enabled": true,
+        "data": {
+          "title": "Sicher & zuverlässig",
+          "logos": [
+            {
+              "name": "Schweizer Recht",
+              "icon": "⚖️"
+            },
+            {
+              "name": "Vertraulich",
+              "icon": "🔒"
+            },
+            {
+              "name": "Pünktlich",
+              "icon": "⏱"
+            },
+            {
+              "name": "Sorgfältig",
+              "icon": "✅"
+            }
+          ]
+        }
+      },
+      "services": {
+        "enabled": true,
+        "data": {
+          "title": "Dienstleistungen",
+          "subtitle": "So unterstützen wir Ihr Unternehmen",
+          "services": [
+            {
+              "title": "Buchhaltung",
+              "description": "Ordnung, Übersicht und saubere Abschlüsse",
+              "icon": "📊"
+            },
+            {
+              "title": "Steuerberatung",
+              "description": "Optimierung und fristgerechte Abgaben",
+              "icon": "🧾"
+            },
+            {
+              "title": "Lohnwesen",
+              "description": "Löhne, Sozialversicherungen, Abrechnungen",
+              "icon": "💼"
+            },
+            {
+              "title": "Gründungsberatung",
+              "description": "Begleitung von der Idee bis zur Firma",
+              "icon": "🚀"
+            }
+          ]
+        }
+      },
+      "benefits": {
+        "enabled": true,
+        "data": {
+          "title": "Warum wir",
+          "benefits": [
+            {
+              "title": "Erfahrung",
+              "text": "Langjährige Praxis in KMU & Startups",
+              "icon": "🏆"
+            },
+            {
+              "title": "Transparenz",
+              "text": "Klare Pakete und nachvollziehbare Offerten",
+              "icon": "🔍"
+            },
+            {
+              "title": "Digitale Prozesse",
+              "text": "Effizient, modern und papierarm",
+              "icon": "💻"
+            },
+            {
+              "title": "Persönlich",
+              "text": "Direkter Kontakt und schnelle Antworten",
+              "icon": "🤝"
+            }
+          ]
+        }
+      },
+      "testimonials": {
+        "enabled": true,
+        "data": {
+          "title": "Kundenstimmen",
+          "testimonials": [
+            {
+              "quote": "Sehr kompetent und immer erreichbar.",
+              "name": "KMU Inhaber",
+              "role": "Geschäftsführer",
+              "rating": 5
+            },
+            {
+              "quote": "Endlich Ordnung in der Buchhaltung – danke!",
+              "name": "Startup Gründerin",
+              "role": "Founder",
+              "rating": 5
+            }
+          ]
+        }
+      },
+      "faq": {
+        "enabled": true,
+        "data": {
+          "title": "Fragen",
+          "faqs": [
+            {
+              "question": "Übernehmen Sie auch nur die Steuererklärung?",
+              "answer": "Ja, wir bieten modulare Leistungen – von Einzelleistungen bis Full-Service."
+            },
+            {
+              "question": "Welche Tools unterstützen Sie?",
+              "answer": "Wir arbeiten mit gängigen Schweizer Lösungen und integrieren uns in Ihre Prozesse."
+            },
+            {
+              "question": "Wie starten wir?",
+              "answer": "Im Erstgespräch klären wir Umfang, Zeitplan und Offerte."
+            }
+          ]
+        }
+      },
+      "cta": {
+        "enabled": true,
+        "data": {
+          "title": "Lassen Sie uns starten",
+          "subtitle": "Unverbindliches Erstgespräch – klarer Fahrplan",
+          "ctaText": "Termin buchen",
+          "ctaLink": "#contact",
+          "noteText": "Antwort innerhalb 24h"
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "data": {
+          "companyName": "Treuhand Muster GmbH",
+          "address": "Bahnhofstrasse 12, 8001 Zürich",
+          "phone": "+41 44 XXX XX XX",
+          "email": "kontakt@treuhand-muster.ch",
+          "links": [
+            {
+              "label": "Impressum",
+              "href": "/impressum"
+            },
+            {
+              "label": "Datenschutz",
+              "href": "/datenschutz"
+            }
+          ],
+          "social": {
+            "linkedin": "#",
+            "facebook": "",
+            "instagram": ""
+          }
+        }
+      },
+      "cookie": {
+        "enabled": true,
+        "data": {
+          "title": "Cookies",
+          "text": "Wir verwenden Cookies, um unsere Website zu verbessern. Du kannst deine Auswahl jederzeit ändern.",
+          "acceptText": "Akzeptieren",
+          "rejectText": "Ablehnen",
+          "settingsText": "Einstellungen",
+          "privacyLink": "/datenschutz"
+        }
+      }
+    },
+    "theme": {
+      "primary": "#1f2937",
+      "accent": "#10b981",
+      "bg": "#ffffff",
+      "surface": "#f8fafc",
+      "text": "#111827",
+      "textLight": "#6b7280",
+      "radius": "rounded",
+      "darkMode": false,
+      "fontStack": "system"
+    }
+  },
+  "anwalt": {
+    "name": "Anwalt / Kanzlei",
+    "description": "Rechtsberatung, Kanzlei, Notariat",
+    "industry": "legal",
+    "icon": "⚖️",
+    "components": {
+      "header": {
+        "enabled": true,
+        "data": {
+          "companyName": "Kanzlei Beispiel & Partner",
+          "logoText": "Beispiel & Partner",
+          "navLinks": [
+            {
+              "label": "Kompetenzen",
+              "href": "#services"
+            },
+            {
+              "label": "Team",
+              "href": "#team"
+            },
+            {
+              "label": "Kontakt",
+              "href": "#contact"
+            }
+          ],
+          "ctaText": "Kontakt",
+          "ctaLink": "#contact"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "data": {
+          "headline": "Rechtsberatung mit Klarheit und Haltung",
+          "subheadline": "Diskret. Präzise. Durchsetzungsstark.",
+          "primaryCtaText": "Erstberatung anfragen",
+          "primaryCtaLink": "#contact",
+          "secondaryCtaText": "Kompetenzen",
+          "secondaryCtaLink": "#services",
+          "image": null,
+          "badgeText": "Schweizer Kanzlei"
+        }
+      },
+      "authority": {
+        "enabled": true,
+        "data": {
+          "title": "Ihre Interessen – unser Fokus",
+          "stats": [
+            {
+              "value": "20+",
+              "label": "Jahre Erfahrung"
+            },
+            {
+              "value": "1000+",
+              "label": "Mandate"
+            },
+            {
+              "value": "4.9/5",
+              "label": "Bewertung"
+            }
+          ],
+          "badges": [
+            {
+              "title": "Diskretion",
+              "text": "Vertraulichkeit garantiert"
+            },
+            {
+              "title": "Strategie",
+              "text": "Pragmatische Lösungen"
+            },
+            {
+              "title": "Vertretung",
+              "text": "Konsequent in der Durchsetzung"
+            }
+          ]
+        }
+      },
+      "services": {
+        "enabled": true,
+        "data": {
+          "title": "Kompetenzen",
+          "subtitle": "Wir beraten und vertreten Sie in folgenden Bereichen",
+          "services": [
+            {
+              "title": "Arbeitsrecht",
+              "description": "Kündigung, Verträge, Streitigkeiten",
+              "icon": "📄"
+            },
+            {
+              "title": "Vertragsrecht",
+              "description": "Prüfung, Erstellung, Verhandlung",
+              "icon": "✍️"
+            },
+            {
+              "title": "Familienrecht",
+              "description": "Scheidung, Sorgerecht, Vermögen",
+              "icon": "👨‍👩‍👧‍👦"
+            },
+            {
+              "title": "Unternehmensrecht",
+              "description": "Gründung, Compliance, Streit",
+              "icon": "🏢"
+            }
+          ]
+        }
+      },
+      "team": {
+        "enabled": true,
+        "data": {
+          "title": "Team",
+          "subtitle": "Erfahrene Juristen an Ihrer Seite",
+          "members": [
+            {
+              "name": "Dr. Julia Beispiel",
+              "role": "Partnerin",
+              "bio": "Spezialisiert auf Unternehmensrecht",
+              "image": null
+            },
+            {
+              "name": "Markus Partner",
+              "role": "Partner",
+              "bio": "Arbeits- und Vertragsrecht",
+              "image": null
+            }
+          ]
+        }
+      },
+      "testimonials": {
+        "enabled": true,
+        "data": {
+          "title": "Referenzen",
+          "testimonials": [
+            {
+              "quote": "Sehr professionell, klare Kommunikation.",
+              "name": "Mandant",
+              "role": "Privatperson",
+              "rating": 5
+            },
+            {
+              "quote": "Präzise Beratung und schnelle Umsetzung.",
+              "name": "Unternehmen",
+              "role": "Geschäftsführung",
+              "rating": 5
+            }
+          ]
+        }
+      },
+      "faq": {
+        "enabled": true,
+        "data": {
+          "title": "FAQ",
+          "faqs": [
+            {
+              "question": "Bieten Sie Erstberatungen an?",
+              "answer": "Ja, im Erstgespräch klären wir Situation, Optionen und Vorgehen."
+            },
+            {
+              "question": "Welche Unterlagen soll ich mitbringen?",
+              "answer": "Relevante Verträge, Korrespondenz und vorhandene Entscheidungen."
+            },
+            {
+              "question": "Wie werden Kosten berechnet?",
+              "answer": "Transparente Abrechnung nach Aufwand oder Pauschalen nach Vereinbarung."
+            }
+          ]
+        }
+      },
+      "cta": {
+        "enabled": true,
+        "data": {
+          "title": "Sprechen wir über Ihren Fall",
+          "subtitle": "Diskret, unverbindlich und klar strukturiert",
+          "ctaText": "Kontakt aufnehmen",
+          "ctaLink": "#contact",
+          "noteText": "Antwort in der Regel innerhalb 24h"
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "data": {
+          "companyName": "Kanzlei Beispiel & Partner",
+          "address": "Seestrasse 45, 8002 Zürich",
+          "phone": "+41 44 XXX XX XX",
+          "email": "kontakt@kanzlei.ch",
+          "links": [
+            {
+              "label": "Impressum",
+              "href": "/impressum"
+            },
+            {
+              "label": "Datenschutz",
+              "href": "/datenschutz"
+            }
+          ],
+          "social": {
+            "linkedin": "#",
+            "facebook": "",
+            "instagram": ""
+          }
+        }
+      },
+      "cookie": {
+        "enabled": true,
+        "data": {
+          "title": "Cookies",
+          "text": "Wir verwenden Cookies, um die Website zu optimieren. Du kannst deine Auswahl jederzeit ändern.",
+          "acceptText": "Akzeptieren",
+          "rejectText": "Ablehnen",
+          "settingsText": "Einstellungen",
+          "privacyLink": "/datenschutz"
+        }
+      }
+    },
+    "theme": {
+      "primary": "#111827",
+      "accent": "#f59e0b",
+      "bg": "#ffffff",
+      "surface": "#f8fafc",
+      "text": "#0f172a",
+      "textLight": "#64748b",
+      "radius": "sharp",
+      "darkMode": false,
+      "fontStack": "serif"
+    }
+  },
+  "handwerker": {
+    "name": "Handwerker / Service",
+    "description": "Handwerk, lokale Dienstleistung",
+    "industry": "service",
+    "icon": "🛠️",
+    "components": {
+      "header": {
+        "enabled": true,
+        "data": {
+          "companyName": "Handwerk Muster GmbH",
+          "logoText": "Handwerk Muster",
+          "navLinks": [
+            {
+              "label": "Leistungen",
+              "href": "#services"
+            },
+            {
+              "label": "Referenzen",
+              "href": "#testimonials"
+            },
+            {
+              "label": "Kontakt",
+              "href": "#contact"
+            }
+          ],
+          "ctaText": "Jetzt anrufen",
+          "ctaLink": "tel:+41440000000"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "data": {
+          "headline": "Schnell vor Ort. Sauber gelöst.",
+          "subheadline": "Reparaturen, Installationen und Service – zuverlässig in Ihrer Region.",
+          "primaryCtaText": "Offerte anfragen",
+          "primaryCtaLink": "#contact",
+          "secondaryCtaText": "Leistungen",
+          "secondaryCtaLink": "#services",
+          "image": null,
+          "badgeText": "24h Notfall-Service"
+        }
+      },
+      "trust": {
+        "enabled": true,
+        "data": {
+          "title": "Verlässlichkeit, die zählt",
+          "logos": [
+            {
+              "name": "Schnell",
+              "icon": "⚡"
+            },
+            {
+              "name": "Sauber",
+              "icon": "🧼"
+            },
+            {
+              "name": "Garantie",
+              "icon": "✅"
+            },
+            {
+              "name": "Regional",
+              "icon": "📍"
+            }
+          ]
+        }
+      },
+      "services": {
+        "enabled": true,
+        "data": {
+          "title": "Leistungen",
+          "subtitle": "Alles, was Sie brauchen",
+          "services": [
+            {
+              "title": "Installation",
+              "description": "Professionelle Montage und Inbetriebnahme",
+              "icon": "🔧"
+            },
+            {
+              "title": "Reparatur",
+              "description": "Schnelle Fehlerbehebung und Ersatzteile",
+              "icon": "🛠️"
+            },
+            {
+              "title": "Wartung",
+              "description": "Regelmässige Checks für lange Lebensdauer",
+              "icon": "🧰"
+            },
+            {
+              "title": "Notfall",
+              "description": "Dringende Einsätze – wir sind da",
+              "icon": "🚨"
+            }
+          ]
+        }
+      },
+      "process": {
+        "enabled": true,
+        "data": {
+          "title": "Ablauf",
+          "steps": [
+            {
+              "title": "Kontakt",
+              "text": "Sie melden sich telefonisch oder per Formular"
+            },
+            {
+              "title": "Offerte",
+              "text": "Wir erstellen eine klare Offerte"
+            },
+            {
+              "title": "Termin",
+              "text": "Schnell verfügbar – pünktlich vor Ort"
+            },
+            {
+              "title": "Ausführung",
+              "text": "Sauber, effizient, mit Garantie"
+            }
+          ]
+        }
+      },
+      "testimonials": {
+        "enabled": true,
+        "data": {
+          "title": "Kundenfeedback",
+          "testimonials": [
+            {
+              "quote": "Sehr schnell und super sauber gearbeitet.",
+              "name": "Kundin",
+              "role": "Privat",
+              "rating": 5
+            },
+            {
+              "quote": "Top Service, fairer Preis.",
+              "name": "Kunde",
+              "role": "Privat",
+              "rating": 5
+            }
+          ]
+        }
+      },
+      "faq": {
+        "enabled": true,
+        "data": {
+          "title": "FAQ",
+          "faqs": [
+            {
+              "question": "Wie schnell sind Sie verfügbar?",
+              "answer": "Meist innerhalb 24–48h, Notfälle nach Absprache."
+            },
+            {
+              "question": "Gibt es eine Garantie?",
+              "answer": "Ja, wir garantieren unsere Arbeit und verwenden Qualitätsmaterial."
+            },
+            {
+              "question": "Wie erfolgt die Abrechnung?",
+              "answer": "Transparent nach Aufwand oder pauschal gemäss Offerte."
+            }
+          ]
+        }
+      },
+      "cta": {
+        "enabled": true,
+        "data": {
+          "title": "Jetzt Termin anfragen",
+          "subtitle": "Schnelle Antwort – klare Offerte",
+          "ctaText": "Kontakt",
+          "ctaLink": "#contact",
+          "noteText": "Telefonisch oder per Formular"
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "data": {
+          "companyName": "Handwerk Muster GmbH",
+          "address": "Industriestrasse 8, 8005 Zürich",
+          "phone": "+41 44 XXX XX XX",
+          "email": "service@handwerk.ch",
+          "links": [
+            {
+              "label": "Impressum",
+              "href": "/impressum"
+            },
+            {
+              "label": "Datenschutz",
+              "href": "/datenschutz"
+            }
+          ],
+          "social": {
+            "linkedin": "#",
+            "facebook": "",
+            "instagram": ""
+          }
+        }
+      },
+      "cookie": {
+        "enabled": true,
+        "data": {
+          "title": "Cookies",
+          "text": "Wir verwenden Cookies, um die Nutzung zu verbessern. Du kannst deine Auswahl jederzeit ändern.",
+          "acceptText": "Akzeptieren",
+          "rejectText": "Ablehnen",
+          "settingsText": "Einstellungen",
+          "privacyLink": "/datenschutz"
+        }
+      }
+    },
+    "theme": {
+      "primary": "#0f766e",
+      "accent": "#ef4444",
+      "bg": "#ffffff",
+      "surface": "#f8fafc",
+      "text": "#0f172a",
+      "textLight": "#64748b",
+      "radius": "rounded",
+      "darkMode": false,
+      "fontStack": "system"
+    }
+  },
+  "arzt": {
+    "name": "Arzt / Praxis",
+    "description": "Praxis, Medizin, Gesundheit",
+    "industry": "health",
+    "icon": "🩺",
+    "components": {
+      "header": {
+        "enabled": true,
+        "data": {
+          "companyName": "Praxis Muster",
+          "logoText": "Praxis Muster",
+          "navLinks": [
+            {
+              "label": "Angebot",
+              "href": "#services"
+            },
+            {
+              "label": "Team",
+              "href": "#team"
+            },
+            {
+              "label": "Kontakt",
+              "href": "#contact"
+            }
+          ],
+          "ctaText": "Termin",
+          "ctaLink": "#contact"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "data": {
+          "headline": "Gesundheit in guten Händen",
+          "subheadline": "Moderne Praxis. Persönlich. Schweizer Qualitätsstandard.",
+          "primaryCtaText": "Termin anfragen",
+          "primaryCtaLink": "#contact",
+          "secondaryCtaText": "Leistungen",
+          "secondaryCtaLink": "#services",
+          "image": null,
+          "badgeText": "Neue Patienten willkommen"
+        }
+      },
+      "trust": {
+        "enabled": true,
+        "data": {
+          "title": "Vertrauen & Qualität",
+          "logos": [
+            {
+              "name": "Diskret",
+              "icon": "🔒"
+            },
+            {
+              "name": "Zertifiziert",
+              "icon": "✅"
+            },
+            {
+              "name": "Erfahren",
+              "icon": "🏥"
+            },
+            {
+              "name": "Modern",
+              "icon": "🧬"
+            }
+          ]
+        }
+      },
+      "services": {
+        "enabled": true,
+        "data": {
+          "title": "Leistungen",
+          "subtitle": "Medizinische Betreuung für Ihre Bedürfnisse",
+          "services": [
+            {
+              "title": "Allgemeinmedizin",
+              "description": "Umfassende Grundversorgung",
+              "icon": "🩺"
+            },
+            {
+              "title": "Check-ups",
+              "description": "Vorsorgeuntersuchungen",
+              "icon": "🧪"
+            },
+            {
+              "title": "Beratung",
+              "description": "Individuelle Gesundheitsberatung",
+              "icon": "💬"
+            },
+            {
+              "title": "Diagnostik",
+              "description": "Moderne Untersuchungsmethoden",
+              "icon": "🔬"
+            }
+          ]
+        }
+      },
+      "team": {
+        "enabled": true,
+        "data": {
+          "title": "Team",
+          "subtitle": "Kompetent und einfühlsam",
+          "members": [
+            {
+              "name": "Dr. med. Beispiel",
+              "role": "Ärztin",
+              "bio": "Allgemeinmedizin",
+              "image": null
+            },
+            {
+              "name": "MFA Muster",
+              "role": "Assistenz",
+              "bio": "Organisation & Betreuung",
+              "image": null
+            }
+          ]
+        }
+      },
+      "faq": {
+        "enabled": true,
+        "data": {
+          "title": "FAQ",
+          "faqs": [
+            {
+              "question": "Nehmen Sie neue Patienten auf?",
+              "answer": "Ja, nach Verfügbarkeit."
+            },
+            {
+              "question": "Welche Versicherungen akzeptieren Sie?",
+              "answer": "Gängige Schweizer Krankenkassen. Details im Erstkontakt."
+            },
+            {
+              "question": "Wie vereinbare ich einen Termin?",
+              "answer": "Per Telefon oder Formular."
+            }
+          ]
+        }
+      },
+      "cta": {
+        "enabled": true,
+        "data": {
+          "title": "Termin vereinbaren",
+          "subtitle": "Schnell und unkompliziert",
+          "ctaText": "Kontakt",
+          "ctaLink": "#contact",
+          "noteText": "Antwort innerhalb 24h"
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "data": {
+          "companyName": "Praxis Muster",
+          "address": "Praxisweg 3, 8000 Zürich",
+          "phone": "+41 44 XXX XX XX",
+          "email": "praxis@beispiel.ch",
+          "links": [
+            {
+              "label": "Impressum",
+              "href": "/impressum"
+            },
+            {
+              "label": "Datenschutz",
+              "href": "/datenschutz"
+            }
+          ],
+          "social": {
+            "linkedin": "#",
+            "facebook": "",
+            "instagram": ""
+          }
+        }
+      },
+      "cookie": {
+        "enabled": true,
+        "data": {
+          "title": "Cookies",
+          "text": "Wir verwenden Cookies, um die Nutzung zu verbessern. Du kannst deine Auswahl jederzeit ändern.",
+          "acceptText": "Akzeptieren",
+          "rejectText": "Ablehnen",
+          "settingsText": "Einstellungen",
+          "privacyLink": "/datenschutz"
+        }
+      }
+    },
+    "theme": {
+      "primary": "#2563eb",
+      "accent": "#10b981",
+      "bg": "#ffffff",
+      "surface": "#f8fafc",
+      "text": "#0f172a",
+      "textLight": "#64748b",
+      "radius": "rounded",
+      "darkMode": false,
+      "fontStack": "system"
+    }
+  },
+  "restaurant": {
+    "name": "Restaurant",
+    "description": "Gastronomie, Restaurant, Café",
+    "industry": "food",
+    "icon": "🍽️",
+    "components": {
+      "header": {
+        "enabled": true,
+        "data": {
+          "companyName": "Restaurant Beispiel",
+          "logoText": "Restaurant Beispiel",
+          "navLinks": [
+            {
+              "label": "Menü",
+              "href": "#services"
+            },
+            {
+              "label": "Bewertungen",
+              "href": "#testimonials"
+            },
+            {
+              "label": "Kontakt",
+              "href": "#contact"
+            }
+          ],
+          "ctaText": "Reservieren",
+          "ctaLink": "#contact"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "data": {
+          "headline": "Genuss. Regional. Saison",
+          "subheadline": "Schweizer Küche mit modernem Twist.",
+          "primaryCtaText": "Tisch reservieren",
+          "primaryCtaLink": "#contact",
+          "secondaryCtaText": "Menü ansehen",
+          "secondaryCtaLink": "#services",
+          "image": null,
+          "badgeText": "Heute geöffnet"
+        }
+      },
+      "services": {
+        "enabled": true,
+        "data": {
+          "title": "Menü Highlights",
+          "subtitle": "Ausgewählte Spezialitäten",
+          "services": [
+            {
+              "title": "Saisonkarte",
+              "description": "Frische Zutaten aus der Region",
+              "icon": "🥗"
+            },
+            {
+              "title": "Mittagsmenü",
+              "description": "Schnell & fein",
+              "icon": "🍲"
+            },
+            {
+              "title": "Desserts",
+              "description": "Hausgemacht",
+              "icon": "🍰"
+            },
+            {
+              "title": "Weine",
+              "description": "Ausgewählte Schweizer Weine",
+              "icon": "🍷"
+            }
+          ]
+        }
+      },
+      "gallery": {
+        "enabled": true,
+        "data": {
+          "title": "Galerie",
+          "images": [
+            {
+              "src": null,
+              "alt": "Gericht 1"
+            },
+            {
+              "src": null,
+              "alt": "Gericht 2"
+            },
+            {
+              "src": null,
+              "alt": "Restaurant"
+            }
+          ]
+        }
+      },
+      "testimonials": {
+        "enabled": true,
+        "data": {
+          "title": "Bewertungen",
+          "testimonials": [
+            {
+              "quote": "Fantastisches Essen und sehr freundlicher Service.",
+              "name": "Gast",
+              "role": "Google Review",
+              "rating": 5
+            },
+            {
+              "quote": "Tolle Atmosphäre, kommen wieder!",
+              "name": "Gast",
+              "role": "Tripadvisor",
+              "rating": 5
+            }
+          ]
+        }
+      },
+      "cta": {
+        "enabled": true,
+        "data": {
+          "title": "Jetzt reservieren",
+          "subtitle": "Wir freuen uns auf Ihren Besuch",
+          "ctaText": "Kontakt",
+          "ctaLink": "#contact",
+          "noteText": "Reservierung empfohlen"
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "data": {
+          "companyName": "Restaurant Beispiel",
+          "address": "Altstadt 7, 8001 Zürich",
+          "phone": "+41 44 XXX XX XX",
+          "email": "info@restaurant.ch",
+          "links": [
+            {
+              "label": "Impressum",
+              "href": "/impressum"
+            },
+            {
+              "label": "Datenschutz",
+              "href": "/datenschutz"
+            }
+          ],
+          "social": {
+            "linkedin": "",
+            "facebook": "#",
+            "instagram": "#"
+          }
+        }
+      },
+      "cookie": {
+        "enabled": true,
+        "data": {
+          "title": "Cookies",
+          "text": "Wir verwenden Cookies, um die Nutzung zu verbessern. Du kannst deine Auswahl jederzeit ändern.",
+          "acceptText": "Akzeptieren",
+          "rejectText": "Ablehnen",
+          "settingsText": "Einstellungen",
+          "privacyLink": "/datenschutz"
+        }
+      }
+    },
+    "theme": {
+      "primary": "#0f172a",
+      "accent": "#f97316",
+      "bg": "#ffffff",
+      "surface": "#f8fafc",
+      "text": "#0f172a",
+      "textLight": "#64748b",
+      "radius": "rounded",
+      "darkMode": false,
+      "fontStack": "system"
+    }
+  },
+  "immobilien": {
+    "name": "Immobilien",
+    "description": "Immobilien, Makler, Verwaltung",
+    "industry": "realestate",
+    "icon": "🏠",
+    "components": {
+      "header": {
+        "enabled": true,
+        "data": {
+          "companyName": "Immobilien Muster",
+          "logoText": "Immobilien Muster",
+          "navLinks": [
+            {
+              "label": "Angebot",
+              "href": "#services"
+            },
+            {
+              "label": "Referenzen",
+              "href": "#testimonials"
+            },
+            {
+              "label": "Kontakt",
+              "href": "#contact"
+            }
+          ],
+          "ctaText": "Bewertung anfragen",
+          "ctaLink": "#contact"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "data": {
+          "headline": "Immobilienvermittlung mit Vertrauen",
+          "subheadline": "Professionell. Transparent. Schweizerisch.",
+          "primaryCtaText": "Bewertung anfragen",
+          "primaryCtaLink": "#contact",
+          "secondaryCtaText": "Leistungen",
+          "secondaryCtaLink": "#services",
+          "image": null,
+          "badgeText": "Region Zürich"
+        }
+      },
+      "services": {
+        "enabled": true,
+        "data": {
+          "title": "Leistungen",
+          "subtitle": "Für Käufer, Verkäufer und Eigentümer",
+          "services": [
+            {
+              "title": "Verkauf",
+              "description": "Professionelle Vermarktung und Abschluss",
+              "icon": "🏡"
+            },
+            {
+              "title": "Bewertung",
+              "description": "Fundierte Marktwertanalyse",
+              "icon": "📈"
+            },
+            {
+              "title": "Vermietung",
+              "description": "Sorgfältige Auswahl und Betreuung",
+              "icon": "🔑"
+            },
+            {
+              "title": "Verwaltung",
+              "description": "Langfristige Betreuung Ihrer Objekte",
+              "icon": "🧾"
+            }
+          ]
+        }
+      },
+      "testimonials": {
+        "enabled": true,
+        "data": {
+          "title": "Referenzen",
+          "testimonials": [
+            {
+              "quote": "Sehr transparent und kompetent.",
+              "name": "Kunde",
+              "role": "Verkäufer",
+              "rating": 5
+            },
+            {
+              "quote": "Schnell und zuverlässig – top!",
+              "name": "Kundin",
+              "role": "Käuferin",
+              "rating": 5
+            }
+          ]
+        }
+      },
+      "cta": {
+        "enabled": true,
+        "data": {
+          "title": "Kostenlose Erstberatung",
+          "subtitle": "Lassen Sie uns Ihre Immobilie bewerten",
+          "ctaText": "Kontakt",
+          "ctaLink": "#contact",
+          "noteText": "Unverbindlich"
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "data": {
+          "companyName": "Immobilien Muster",
+          "address": "Seefeldstrasse 10, 8008 Zürich",
+          "phone": "+41 44 XXX XX XX",
+          "email": "kontakt@immobilien.ch",
+          "links": [
+            {
+              "label": "Impressum",
+              "href": "/impressum"
+            },
+            {
+              "label": "Datenschutz",
+              "href": "/datenschutz"
+            }
+          ],
+          "social": {
+            "linkedin": "#",
+            "facebook": "",
+            "instagram": ""
+          }
+        }
+      },
+      "cookie": {
+        "enabled": true,
+        "data": {
+          "title": "Cookies",
+          "text": "Wir verwenden Cookies, um die Nutzung zu verbessern. Du kannst deine Auswahl jederzeit ändern.",
+          "acceptText": "Akzeptieren",
+          "rejectText": "Ablehnen",
+          "settingsText": "Einstellungen",
+          "privacyLink": "/datenschutz"
+        }
+      }
+    },
+    "theme": {
+      "primary": "#111827",
+      "accent": "#3b82f6",
+      "bg": "#ffffff",
+      "surface": "#f8fafc",
+      "text": "#0f172a",
+      "textLight": "#64748b",
+      "radius": "rounded",
+      "darkMode": false,
+      "fontStack": "system"
+    }
+  },
+  "coiffeur": {
+    "name": "Coiffeur / Beauty",
+    "description": "Beauty, Salon, Coiffeur",
+    "industry": "beauty",
+    "icon": "💇‍♀️",
+    "components": {
+      "header": {
+        "enabled": true,
+        "data": {
+          "companyName": "Salon Beispiel",
+          "logoText": "Salon Beispiel",
+          "navLinks": [
+            {
+              "label": "Angebot",
+              "href": "#services"
+            },
+            {
+              "label": "Team",
+              "href": "#team"
+            },
+            {
+              "label": "Kontakt",
+              "href": "#contact"
+            }
+          ],
+          "ctaText": "Termin",
+          "ctaLink": "#contact"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "data": {
+          "headline": "Dein Look. Dein Style.",
+          "subheadline": "Professionelle Schnitte, Farbe und Pflege – in Zürich.",
+          "primaryCtaText": "Termin buchen",
+          "primaryCtaLink": "#contact",
+          "secondaryCtaText": "Angebot",
+          "secondaryCtaLink": "#services",
+          "image": null,
+          "badgeText": "Top bewertet"
+        }
+      },
+      "services": {
+        "enabled": true,
+        "data": {
+          "title": "Angebot",
+          "subtitle": "Unsere beliebtesten Services",
+          "services": [
+            {
+              "title": "Schnitt",
+              "description": "Modern, klassisch, individuell",
+              "icon": "✂️"
+            },
+            {
+              "title": "Farbe",
+              "description": "Balayage, Highlights, Color",
+              "icon": "🎨"
+            },
+            {
+              "title": "Pflege",
+              "description": "Masken, Treatments, Keratin",
+              "icon": "🧴"
+            },
+            {
+              "title": "Styling",
+              "description": "Events, Hochzeit, Shooting",
+              "icon": "💄"
+            }
+          ]
+        }
+      },
+      "team": {
+        "enabled": true,
+        "data": {
+          "title": "Team",
+          "subtitle": "Wir lieben, was wir tun",
+          "members": [
+            {
+              "name": "Mia Beispiel",
+              "role": "Stylistin",
+              "bio": "Farbe & Styling",
+              "image": null
+            },
+            {
+              "name": "Luca Muster",
+              "role": "Stylist",
+              "bio": "Schnitt & Barber",
+              "image": null
+            }
+          ]
+        }
+      },
+      "testimonials": {
+        "enabled": true,
+        "data": {
+          "title": "Reviews",
+          "testimonials": [
+            {
+              "quote": "Mega zufrieden, komme wieder!",
+              "name": "Kundin",
+              "role": "Google Review",
+              "rating": 5
+            },
+            {
+              "quote": "Top Beratung und super Ergebnis.",
+              "name": "Kunde",
+              "role": "Google Review",
+              "rating": 5
+            }
+          ]
+        }
+      },
+      "cta": {
+        "enabled": true,
+        "data": {
+          "title": "Jetzt Termin sichern",
+          "subtitle": "Schnell und unkompliziert",
+          "ctaText": "Kontakt",
+          "ctaLink": "#contact",
+          "noteText": "Antwort innerhalb 24h"
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "data": {
+          "companyName": "Salon Beispiel",
+          "address": "Langstrasse 88, 8004 Zürich",
+          "phone": "+41 44 XXX XX XX",
+          "email": "hello@salon.ch",
+          "links": [
+            {
+              "label": "Impressum",
+              "href": "/impressum"
+            },
+            {
+              "label": "Datenschutz",
+              "href": "/datenschutz"
+            }
+          ],
+          "social": {
+            "linkedin": "",
+            "facebook": "",
+            "instagram": "#"
+          }
+        }
+      },
+      "cookie": {
+        "enabled": true,
+        "data": {
+          "title": "Cookies",
+          "text": "Wir verwenden Cookies, um die Nutzung zu verbessern. Du kannst deine Auswahl jederzeit ändern.",
+          "acceptText": "Akzeptieren",
+          "rejectText": "Ablehnen",
+          "settingsText": "Einstellungen",
+          "privacyLink": "/datenschutz"
+        }
+      }
+    },
+    "theme": {
+      "primary": "#0f172a",
+      "accent": "#ec4899",
+      "bg": "#ffffff",
+      "surface": "#f8fafc",
+      "text": "#0f172a",
+      "textLight": "#64748b",
+      "radius": "pill",
+      "darkMode": false,
+      "fontStack": "system"
+    }
+  },
+  "it": {
+    "name": "IT / Software",
+    "description": "IT-Dienstleistung, Software, Agentur",
+    "industry": "it",
+    "icon": "💻",
+    "components": {
+      "header": {
+        "enabled": true,
+        "data": {
+          "companyName": "IT Beispiel GmbH",
+          "logoText": "IT Beispiel",
+          "navLinks": [
+            {
+              "label": "Services",
+              "href": "#services"
+            },
+            {
+              "label": "Cases",
+              "href": "#testimonials"
+            },
+            {
+              "label": "Kontakt",
+              "href": "#contact"
+            }
+          ],
+          "ctaText": "Call buchen",
+          "ctaLink": "#contact"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "data": {
+          "headline": "Software, die wirkt.",
+          "subheadline": "Beratung, Entwicklung, Betrieb – in Schweizer Qualität.",
+          "primaryCtaText": "Erstgespräch",
+          "primaryCtaLink": "#contact",
+          "secondaryCtaText": "Services",
+          "secondaryCtaLink": "#services",
+          "image": null,
+          "badgeText": "Build. Ship. Maintain."
+        }
+      },
+      "trust": {
+        "enabled": true,
+        "data": {
+          "title": "Technisch sauber",
+          "logos": [
+            {
+              "name": "Security",
+              "icon": "🔒"
+            },
+            {
+              "name": "Performance",
+              "icon": "⚡"
+            },
+            {
+              "name": "Scalable",
+              "icon": "📈"
+            },
+            {
+              "name": "Swiss",
+              "icon": "🇨🇭"
+            }
+          ]
+        }
+      },
+      "services": {
+        "enabled": true,
+        "data": {
+          "title": "Services",
+          "subtitle": "Von Strategie bis Betrieb",
+          "services": [
+            {
+              "title": "Discovery",
+              "description": "Klarer Scope, klare Prioritäten",
+              "icon": "🧭"
+            },
+            {
+              "title": "Engineering",
+              "description": "Web, Mobile, Integrationen",
+              "icon": "🧩"
+            },
+            {
+              "title": "DevOps",
+              "description": "CI/CD, Monitoring, Reliability",
+              "icon": "⚙️"
+            },
+            {
+              "title": "Security",
+              "description": "Reviews, Hardening, Compliance",
+              "icon": "🛡️"
+            }
+          ]
+        }
+      },
+      "benefits": {
+        "enabled": true,
+        "data": {
+          "title": "Warum wir",
+          "benefits": [
+            {
+              "title": "Senior Team",
+              "text": "Erfahrene Engineers, klare Kommunikation",
+              "icon": "👥"
+            },
+            {
+              "title": "Schnell lieferbar",
+              "text": "Iterativ, testbar, produktiv",
+              "icon": "🚀"
+            },
+            {
+              "title": "Wartbar",
+              "text": "Saubere Architektur, gute DX",
+              "icon": "🧰"
+            },
+            {
+              "title": "Sicher",
+              "text": "Security-by-default",
+              "icon": "🔒"
+            }
+          ]
+        }
+      },
+      "testimonials": {
+        "enabled": true,
+        "data": {
+          "title": "Cases",
+          "testimonials": [
+            {
+              "quote": "Sehr starke Umsetzung, schnell und sauber.",
+              "name": "CTO",
+              "role": "Scaleup",
+              "rating": 5
+            },
+            {
+              "quote": "Top Partner, pragmatisch und zuverlässig.",
+              "name": "CEO",
+              "role": "KMU",
+              "rating": 5
+            }
+          ]
+        }
+      },
+      "faq": {
+        "enabled": true,
+        "data": {
+          "title": "FAQ",
+          "faqs": [
+            {
+              "question": "Wie startet ein Projekt?",
+              "answer": "Discovery Call, Scope, Angebot, Kickoff."
+            },
+            {
+              "question": "Könnt ihr bestehende Systeme übernehmen?",
+              "answer": "Ja, inkl. Audit, Roadmap und Übergabe."
+            },
+            {
+              "question": "Wie sieht Support aus?",
+              "answer": "SLA nach Bedarf, Monitoring und Incident Handling."
+            }
+          ]
+        }
+      },
+      "cta": {
+        "enabled": true,
+        "data": {
+          "title": "Lass uns sprechen",
+          "subtitle": "15 Minuten – klare nächsten Schritte",
+          "ctaText": "Call buchen",
+          "ctaLink": "#contact",
+          "noteText": "Unverbindlich"
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "data": {
+          "companyName": "IT Beispiel GmbH",
+          "address": "Technoparkstrasse 1, 8005 Zürich",
+          "phone": "+41 44 XXX XX XX",
+          "email": "hello@itbeispiel.ch",
+          "links": [
+            {
+              "label": "Impressum",
+              "href": "/impressum"
+            },
+            {
+              "label": "Datenschutz",
+              "href": "/datenschutz"
+            }
+          ],
+          "social": {
+            "linkedin": "#",
+            "facebook": "",
+            "instagram": ""
+          }
+        }
+      },
+      "cookie": {
+        "enabled": true,
+        "data": {
+          "title": "Cookies",
+          "text": "Wir verwenden Cookies, um die Nutzung zu verbessern. Du kannst deine Auswahl jederzeit ändern.",
+          "acceptText": "Akzeptieren",
+          "rejectText": "Ablehnen",
+          "settingsText": "Einstellungen",
+          "privacyLink": "/datenschutz"
+        }
+      }
+    },
+    "theme": {
+      "primary": "#0f766e",
+      "accent": "#6366f1",
+      "bg": "#ffffff",
+      "surface": "#f8fafc",
+      "text": "#0f172a",
+      "textLight": "#64748b",
+      "radius": "rounded",
+      "darkMode": false,
+      "fontStack": "inter"
+    }
+  }
+}
+

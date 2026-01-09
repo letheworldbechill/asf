@@ -1,0 +1,69 @@
+{
+  "system": {
+    "name": "System (Standard)",
+    "value": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+    "body": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+    "display": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+    "googleFontsHref": "",
+    "description": "Native System-Schrift, schnell, stabil"
+  },
+  "serif": {
+    "name": "Serif (Editorial)",
+    "value": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
+    "body": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
+    "display": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
+    "googleFontsHref": "",
+    "description": "Seriös, klassisch, geeignet für Legal"
+  },
+  "mono": {
+    "name": "Mono (Tech)",
+    "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+    "body": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+    "display": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+    "googleFontsHref": "",
+    "description": "Technisch, Code-Look"
+  },
+  "spark": {
+    "name": "Spark (Swiss Modern)",
+    "value": "'Spark', system-ui, -apple-system, sans-serif",
+    "body": "'Spark', system-ui, -apple-system, sans-serif",
+    "display": "'Spark', system-ui, -apple-system, sans-serif",
+    "googleFontsHref": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap",
+    "description": "Schweizer modern, klare Kanten"
+  },
+  "instrument": {
+    "name": "Instrument Sans (Modern)",
+    "value": "'Instrument Sans', system-ui, -apple-system, sans-serif",
+    "body": "'Instrument Sans', system-ui, -apple-system, sans-serif",
+    "display": "'Instrument Sans', system-ui, -apple-system, sans-serif",
+    "googleFontsHref": "https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap",
+    "description": "Modern, minimal, freundlich"
+  },
+  "dmsans": {
+    "name": "DM Sans (Friendly)",
+    "value": "'DM Sans', system-ui, -apple-system, sans-serif",
+    "body": "'DM Sans', system-ui, -apple-system, sans-serif",
+    "display": "'DM Sans', system-ui, -apple-system, sans-serif",
+    "googleFontsHref": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+    "description": "Lesbar, weich, modern"
+  },
+  "dmserif": {
+    "name": "DM Serif Display (Headline Serif)",
+    "value": "'DM Serif Display', ui-serif, Georgia, serif",
+    "body": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+    "display": "'DM Serif Display', ui-serif, Georgia, serif",
+    "googleFontsHref": "https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap",
+    "description": "Starke Headlines, kombiniert mit Sans Body"
+  },
+  "inter": {
+    "name": "Inter (Product Minimal)",
+    "value": "'Inter', system-ui, -apple-system, sans-serif",
+    "body": "'Inter', system-ui, -apple-system, sans-serif",
+    "display": "'Inter', system-ui, -apple-system, sans-serif",
+    "googleFontsHref": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+    "description": "Neutral, produktig, minimal (Strain Look)"
+  }
+}
+
+
+

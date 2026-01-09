@@ -1,0 +1,994 @@
+{
+  "__meta": {
+    "version": 5,
+    "legacyAliases": {
+      "trust": "trustbar",
+      "stickyCta": "cta"
+    }
+  },
+  "header": {
+    "type": "header",
+    "name": "Header",
+    "icon": "📌",
+    "description": "Navigation und Logo",
+    "variants": [
+      {
+        "id": "simple",
+        "label": "Einfach"
+      },
+      {
+        "id": "centered",
+        "label": "Zentriert"
+      },
+      {
+        "id": "split",
+        "label": "Logo links, Nav rechts"
+      },
+      {
+        "id": "transparent",
+        "label": "Transparent"
+      }
+    ],
+    "defaultVariant": "simple",
+    "fields": [
+      {
+        "key": "brandName",
+        "label": "Brand Name",
+        "type": "text",
+        "placeholder": "Firma AG"
+      },
+      {
+        "key": "nav",
+        "label": "Navigation",
+        "type": "list",
+        "itemLabel": "Link",
+        "itemShape": {
+          "label": "text",
+          "href": "text"
+        }
+      },
+      {
+        "key": "ctaLabel",
+        "label": "CTA Label",
+        "type": "text",
+        "placeholder": "Kontakt"
+      },
+      {
+        "key": "ctaHref",
+        "label": "CTA Link",
+        "type": "text",
+        "placeholder": "#kontakt"
+      }
+    ],
+    "defaults": {
+      "brandName": "Meine Website",
+      "nav": [
+        {
+          "label": "Leistungen",
+          "href": "#leistungen"
+        },
+        {
+          "label": "Über uns",
+          "href": "#team"
+        },
+        {
+          "label": "FAQ",
+          "href": "#faq"
+        }
+      ],
+      "ctaLabel": "Kontakt",
+      "ctaHref": "#kontakt"
+    }
+  },
+  "hero": {
+    "type": "hero",
+    "name": "Hero",
+    "icon": "🎯",
+    "description": "Hauptbereich mit Headline",
+    "variants": [
+      {
+        "id": "centered",
+        "label": "Zentriert",
+        "description": "Text mittig, CTA darunter"
+      },
+      {
+        "id": "split",
+        "label": "Split",
+        "description": "Text links, Bild rechts"
+      },
+      {
+        "id": "split-reverse",
+        "label": "Split Reverse",
+        "description": "Bild links, Text rechts"
+      },
+      {
+        "id": "fullscreen",
+        "label": "Fullscreen",
+        "description": "Hintergrundbild, Text overlay"
+      },
+      {
+        "id": "minimal",
+        "label": "Minimal",
+        "description": "Nur Headline + CTA"
+      }
+    ],
+    "defaultVariant": "centered",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "subline",
+        "label": "Subline",
+        "type": "textarea"
+      },
+      {
+        "key": "ctaLabel",
+        "label": "CTA Label",
+        "type": "text"
+      },
+      {
+        "key": "ctaHref",
+        "label": "CTA Link",
+        "type": "text"
+      },
+      {
+        "key": "image",
+        "label": "Bild",
+        "type": "image"
+      }
+    ],
+    "defaults": {
+      "headline": "Schnell zu einer starken Landingpage",
+      "subline": "Canvas-first Builder für Schweizer Standards.",
+      "ctaLabel": "Offerte anfragen",
+      "ctaHref": "#kontakt",
+      "image": null
+    }
+  },
+  "authority": {
+    "type": "authority",
+    "name": "Authority",
+    "icon": "🏆",
+    "description": "Expertise / Zertifizierungen",
+    "variants": [
+      {
+        "id": "cards",
+        "label": "Karten"
+      },
+      {
+        "id": "logos",
+        "label": "Logos"
+      },
+      {
+        "id": "stats",
+        "label": "Kennzahlen"
+      }
+    ],
+    "defaultVariant": "cards",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "items",
+        "label": "Belege",
+        "type": "list",
+        "itemLabel": "Beleg",
+        "itemShape": {
+          "label": "text",
+          "value": "text",
+          "icon": "text"
+        }
+      }
+    ],
+    "defaults": {
+      "headline": "Warum man uns vertraut",
+      "items": [
+        {
+          "label": "Jahre Erfahrung",
+          "value": "10+",
+          "icon": "🏆"
+        },
+        {
+          "label": "Kunden",
+          "value": "250+",
+          "icon": "🤝"
+        },
+        {
+          "label": "Bewertung",
+          "value": "4.9/5",
+          "icon": "⭐"
+        }
+      ]
+    }
+  },
+  "services": {
+    "type": "services",
+    "name": "Services",
+    "icon": "🔧",
+    "description": "Leistungen / Angebote",
+    "variants": [
+      {
+        "id": "grid-2",
+        "label": "2 Spalten"
+      },
+      {
+        "id": "grid-3",
+        "label": "3 Spalten"
+      },
+      {
+        "id": "grid-4",
+        "label": "4 Spalten"
+      },
+      {
+        "id": "list",
+        "label": "Liste"
+      }
+    ],
+    "defaultVariant": "grid-2",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "items",
+        "label": "Services",
+        "type": "list",
+        "itemLabel": "Service",
+        "itemShape": {
+          "title": "text",
+          "text": "textarea",
+          "icon": "text"
+        }
+      }
+    ],
+    "defaults": {
+      "headline": "Leistungen",
+      "items": [
+        {
+          "title": "Beratung",
+          "text": "Klare Analyse und pragmatische Umsetzung.",
+          "icon": "💡"
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Schnell, sauber, zuverlässig.",
+          "icon": "🛠"
+        },
+        {
+          "title": "Support",
+          "text": "Begleitung nach dem Launch.",
+          "icon": "📞"
+        }
+      ]
+    }
+  },
+  "proofTable": {
+    "type": "proofTable",
+    "name": "Proof Table",
+    "icon": "📊",
+    "description": "Tabellen / Vergleich",
+    "variants": [
+      {
+        "id": "table",
+        "label": "Tabelle"
+      },
+      {
+        "id": "cards",
+        "label": "Karten"
+      },
+      {
+        "id": "comparison",
+        "label": "Vergleich"
+      }
+    ],
+    "defaultVariant": "table",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "rows",
+        "label": "Rows",
+        "type": "list",
+        "itemLabel": "Row",
+        "itemShape": {
+          "label": "text",
+          "value": "text"
+        }
+      }
+    ],
+    "defaults": {
+      "headline": "Vergleich",
+      "rows": [
+        {
+          "label": "Reaktionszeit",
+          "value": "< 24h"
+        },
+        {
+          "label": "Setup",
+          "value": "1–3 Tage"
+        },
+        {
+          "label": "Support",
+          "value": "Persönlich"
+        }
+      ]
+    }
+  },
+  "process": {
+    "type": "process",
+    "name": "Process",
+    "icon": "🧭",
+    "description": "Ablauf / Schritte",
+    "variants": [
+      {
+        "id": "steps",
+        "label": "Schritte"
+      },
+      {
+        "id": "timeline",
+        "label": "Timeline"
+      },
+      {
+        "id": "icons",
+        "label": "Icons"
+      }
+    ],
+    "defaultVariant": "steps",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "steps",
+        "label": "Steps",
+        "type": "list",
+        "itemLabel": "Step",
+        "itemShape": {
+          "title": "text",
+          "text": "textarea"
+        }
+      }
+    ],
+    "defaults": {
+      "headline": "So funktioniert’s",
+      "steps": [
+        {
+          "title": "1. Struktur",
+          "text": "Sections wählen und anordnen."
+        },
+        {
+          "title": "2. Design",
+          "text": "Branding & Inhalte definieren."
+        },
+        {
+          "title": "3. Export",
+          "text": "Preview oder ZIP exportieren."
+        }
+      ]
+    }
+  },
+  "benefits": {
+    "type": "benefits",
+    "name": "Benefits",
+    "icon": "✨",
+    "description": "Vorteile / Nutzen",
+    "variants": [
+      {
+        "id": "grid-2",
+        "label": "2 Spalten"
+      },
+      {
+        "id": "grid-3",
+        "label": "3 Spalten"
+      },
+      {
+        "id": "list",
+        "label": "Liste mit Icons"
+      }
+    ],
+    "defaultVariant": "grid-2",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "items",
+        "label": "Benefits",
+        "type": "list",
+        "itemLabel": "Benefit",
+        "itemShape": {
+          "title": "text",
+          "text": "textarea",
+          "icon": "text"
+        }
+      }
+    ],
+    "defaults": {
+      "headline": "Vorteile",
+      "items": [
+        {
+          "title": "Schnell startklar",
+          "text": "Ohne Build-Step, direkt im Browser.",
+          "icon": "⚡"
+        },
+        {
+          "title": "Offline-fähig",
+          "text": "PWA-ready und lokal speicherbar.",
+          "icon": "📦"
+        },
+        {
+          "title": "Schweizer Consent",
+          "text": "Rechtskonform, flexibel konfigurierbar.",
+          "icon": "✅"
+        }
+      ]
+    }
+  },
+  "team": {
+    "type": "team",
+    "name": "Team",
+    "icon": "👥",
+    "description": "Team / Personen",
+    "variants": [
+      {
+        "id": "grid",
+        "label": "Grid"
+      },
+      {
+        "id": "cards",
+        "label": "Cards"
+      },
+      {
+        "id": "list",
+        "label": "Liste"
+      }
+    ],
+    "defaultVariant": "grid",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "members",
+        "label": "Team",
+        "type": "list",
+        "itemLabel": "Person",
+        "itemShape": {
+          "name": "text",
+          "role": "text",
+          "bio": "textarea",
+          "image": "image"
+        }
+      }
+    ],
+    "defaults": {
+      "headline": "Team",
+      "members": [
+        {
+          "name": "Max Muster",
+          "role": "Projektleitung",
+          "bio": "Koordiniert und liefert zuverlässig.",
+          "image": null
+        },
+        {
+          "name": "Lea Beispiel",
+          "role": "Design",
+          "bio": "Sorgt für klare, moderne UI.",
+          "image": null
+        }
+      ]
+    }
+  },
+  "gallery": {
+    "type": "gallery",
+    "name": "Gallery",
+    "icon": "🖼️",
+    "description": "Bilder / Galerie",
+    "variants": [
+      {
+        "id": "grid",
+        "label": "Grid"
+      },
+      {
+        "id": "masonry",
+        "label": "Masonry"
+      },
+      {
+        "id": "carousel",
+        "label": "Carousel"
+      }
+    ],
+    "defaultVariant": "grid",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "images",
+        "label": "Bilder",
+        "type": "list",
+        "itemLabel": "Bild",
+        "itemShape": {
+          "src": "image",
+          "alt": "text"
+        }
+      }
+    ],
+    "defaults": {
+      "headline": "Einblicke",
+      "images": [
+        {
+          "src": null,
+          "alt": "Screenshot 1"
+        },
+        {
+          "src": null,
+          "alt": "Screenshot 2"
+        },
+        {
+          "src": null,
+          "alt": "Screenshot 3"
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "type": "testimonials",
+    "name": "Testimonials",
+    "icon": "💬",
+    "description": "Kundenstimmen",
+    "variants": [
+      {
+        "id": "grid",
+        "label": "Grid"
+      },
+      {
+        "id": "slider",
+        "label": "Slider"
+      },
+      {
+        "id": "single",
+        "label": "Einzeln gross"
+      }
+    ],
+    "defaultVariant": "grid",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "items",
+        "label": "Testimonials",
+        "type": "list",
+        "itemLabel": "Testimonial",
+        "itemShape": {
+          "quote": "textarea",
+          "name": "text",
+          "role": "text",
+          "image": "image"
+        }
+      }
+    ],
+    "defaults": {
+      "headline": "Stimmen",
+      "items": [
+        {
+          "quote": "Schnell, professionell, genau was wir brauchten.",
+          "name": "A. Kundin",
+          "role": "Geschäftsführung",
+          "image": null
+        },
+        {
+          "quote": "Top Service und sehr saubere Umsetzung.",
+          "name": "B. Kunde",
+          "role": "Inhaber",
+          "image": null
+        }
+      ]
+    }
+  },
+  "faq": {
+    "type": "faq",
+    "name": "Faq",
+    "icon": "❓",
+    "description": "Fragen & Antworten",
+    "variants": [
+      {
+        "id": "accordion",
+        "label": "Akkordeon"
+      },
+      {
+        "id": "two-column",
+        "label": "Zwei Spalten"
+      },
+      {
+        "id": "list",
+        "label": "Liste"
+      }
+    ],
+    "defaultVariant": "accordion",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "items",
+        "label": "Fragen",
+        "type": "list",
+        "itemLabel": "FAQ",
+        "itemShape": {
+          "q": "text",
+          "a": "textarea"
+        }
+      }
+    ],
+    "defaults": {
+      "headline": "FAQ",
+      "items": [
+        {
+          "q": "Wie schnell kann ich exportieren?",
+          "a": "Sobald Struktur und Pflichtinhalte stehen, ist Export möglich."
+        },
+        {
+          "q": "Bleibt alles offline?",
+          "a": "Ja. Alles läuft lokal im Browser und wird in LocalStorage gespeichert."
+        }
+      ]
+    }
+  },
+  "cta": {
+    "type": "cta",
+    "name": "Cta",
+    "icon": "🚀",
+    "description": "Call-to-Action",
+    "variants": [
+      {
+        "id": "centered",
+        "label": "Zentriert"
+      },
+      {
+        "id": "split",
+        "label": "Split"
+      },
+      {
+        "id": "banner",
+        "label": "Full-width Banner"
+      }
+    ],
+    "defaultVariant": "centered",
+    "fields": [
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "key": "text",
+        "label": "Text",
+        "type": "textarea"
+      },
+      {
+        "key": "ctaLabel",
+        "label": "CTA Label",
+        "type": "text"
+      },
+      {
+        "key": "ctaHref",
+        "label": "CTA Link",
+        "type": "text"
+      }
+    ],
+    "defaults": {
+      "headline": "Bereit für den nächsten Schritt?",
+      "text": "Erhalte eine schnelle Einschätzung und ein klares Angebot.",
+      "ctaLabel": "Kontakt aufnehmen",
+      "ctaHref": "#kontakt"
+    },
+    "aliases": [
+      "stickyCta"
+    ]
+  },
+  "footer": {
+    "type": "footer",
+    "name": "Footer",
+    "icon": "📍",
+    "description": "Footer mit Links & Legal",
+    "variants": [
+      {
+        "id": "simple",
+        "label": "Einfach"
+      },
+      {
+        "id": "columns",
+        "label": "Mit Spalten"
+      },
+      {
+        "id": "minimal",
+        "label": "Minimal"
+      }
+    ],
+    "defaultVariant": "simple",
+    "fields": [
+      {
+        "key": "columns",
+        "label": "Spalten",
+        "type": "list",
+        "itemLabel": "Spalte",
+        "itemShape": {
+          "title": "text",
+          "links": "list"
+        }
+      },
+      {
+        "key": "legal",
+        "label": "Legal Links",
+        "type": "list",
+        "itemLabel": "Link",
+        "itemShape": {
+          "label": "text",
+          "href": "text"
+        }
+      },
+      {
+        "key": "copyright",
+        "label": "Copyright",
+        "type": "text"
+      }
+    ],
+    "defaults": {
+      "columns": [
+        {
+          "title": "Kontakt",
+          "links": [
+            {
+              "label": "info@firma.ch",
+              "href": "mailto:info@firma.ch"
+            },
+            {
+              "label": "+41 00 000 00 00",
+              "href": "tel:+41000000000"
+            }
+          ]
+        },
+        {
+          "title": "Adresse",
+          "links": [
+            {
+              "label": "Musterstrasse 1, 8000 Zürich",
+              "href": "#"
+            }
+          ]
+        }
+      ],
+      "legal": [
+        {
+          "label": "Impressum",
+          "href": "/impressum"
+        },
+        {
+          "label": "Datenschutz",
+          "href": "/datenschutz"
+        }
+      ],
+      "copyright": "© "
+    }
+  },
+  "cookie": {
+    "type": "cookie",
+    "name": "Cookie",
+    "icon": "🍪",
+    "description": "Cookie Banner",
+    "variants": [
+      {
+        "id": "banner",
+        "label": "Banner"
+      },
+      {
+        "id": "modal",
+        "label": "Modal"
+      },
+      {
+        "id": "minimal",
+        "label": "Minimal"
+      }
+    ],
+    "defaultVariant": "banner",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Titel",
+        "type": "text"
+      },
+      {
+        "key": "text",
+        "label": "Text",
+        "type": "textarea"
+      },
+      {
+        "key": "privacyLink",
+        "label": "Datenschutz-Link",
+        "type": "text"
+      }
+    ],
+    "defaults": {
+      "title": "Cookies",
+      "text": "Wir verwenden Cookies, um die Nutzung zu verbessern. Du kannst deine Auswahl jederzeit anpassen.",
+      "privacyLink": "/datenschutz"
+    }
+  },
+  "trustbar": {
+    "type": "trustbar",
+    "name": "Trust Bar",
+    "icon": "🤝",
+    "description": "Logos / Trust Elemente",
+    "variants": [
+      {
+        "id": "logos",
+        "label": "Nur Logos"
+      },
+      {
+        "id": "logos-text",
+        "label": "Logos + Text"
+      },
+      {
+        "id": "stats",
+        "label": "Kennzahlen"
+      },
+      {
+        "id": "badges",
+        "label": "Badges"
+      }
+    ],
+    "defaultVariant": "logos",
+    "fields": [
+      {
+        "key": "items",
+        "label": "Items",
+        "type": "list",
+        "itemLabel": "Item",
+        "itemShape": {
+          "label": "text",
+          "value": "text",
+          "icon": "text"
+        }
+      }
+    ],
+    "defaults": {
+      "items": [
+        {
+          "label": "Schweizer Qualität",
+          "value": "",
+          "icon": "🇨🇭"
+        },
+        {
+          "label": "Datenschutz",
+          "value": "",
+          "icon": "🔒"
+        },
+        {
+          "label": "Schnelle Umsetzung",
+          "value": "",
+          "icon": "⚡"
+        }
+      ]
+    },
+    "aliases": [
+      "trust"
+    ]
+  },
+  "custom": {
+    "type": "custom",
+    "name": "Custom Section",
+    "icon": "🧩",
+    "description": "Freier Container für eigene Elemente",
+    "variants": [
+      {
+        "id": "full",
+        "label": "Volle Breite"
+      },
+      {
+        "id": "contained",
+        "label": "Container"
+      },
+      {
+        "id": "narrow",
+        "label": "Schmal"
+      }
+    ],
+    "defaultVariant": "contained",
+    "fields": [
+      {
+        "key": "elements",
+        "label": "Elemente",
+        "type": "custom-elements"
+      }
+    ],
+    "defaults": {
+      "elements": []
+    },
+    "isCustom": true,
+    "allowedElements": [
+      "headline",
+      "text",
+      "button",
+      "image",
+      "spacer",
+      "divider",
+      "columns"
+    ]
+  },
+  "trust": {
+    "type": "trust",
+    "deprecated": true,
+    "aliasTo": "trustbar",
+    "name": "Trust (Legacy)",
+    "icon": "🤝",
+    "description": "Logos / Trust Elemente",
+    "variants": [
+      {
+        "id": "logos",
+        "label": "Nur Logos"
+      },
+      {
+        "id": "logos-text",
+        "label": "Logos + Text"
+      },
+      {
+        "id": "stats",
+        "label": "Kennzahlen"
+      },
+      {
+        "id": "badges",
+        "label": "Badges"
+      }
+    ],
+    "defaultVariant": "logos"
+  },
+  "stickyCta": {
+    "type": "stickyCta",
+    "deprecated": true,
+    "aliasTo": "cta",
+    "name": "Sticky CTA (Legacy)",
+    "icon": "📣",
+    "description": "Sticky Call-to-Action",
+    "variants": [
+      {
+        "id": "bar",
+        "label": "Bar"
+      },
+      {
+        "id": "pill",
+        "label": "Pill"
+      },
+      {
+        "id": "chat",
+        "label": "Chat Bubble"
+      }
+    ],
+    "defaultVariant": "bar"
+  }
+}
+

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>SB5 Diagnostics</title></head>
+<body style="font-family:system-ui;padding:16px">
+<h1>SB5 Diagnostics</h1>
+<p id="p">Loading…</p>
+<script>
+  const p=document.getElementById('p');
+  function ok(msg){p.textContent=msg;}
+  window.addEventListener('load', ()=>{
+    ok('SB5 present: '+!!window.SB5+' | SB5.app.mount: '+(!!(window.SB5&&window.SB5.app&&typeof window.SB5.app.mount==='function')));
+  });
+</script>
+</body></html>
