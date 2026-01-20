@@ -328,36 +328,5 @@
   }
 
   SB5.app.mount = mount;
-})(window);
-
-
-
-
-{
-  "name": "Smooth Builder 5",
-  "short_name": "SB5",
-  "start_url": "./index.html",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0f766e",
-  "description": "Canvas-first Website Builder (offline-fähig).",
-  "icons": [
-    {
-      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%230f766e%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f59e0b%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%22512%22%20height%3D%22512%22%20rx%3D%22112%22%20fill%3D%22url(%23g)%22/%3E%3Cpath%20d%3D%22M170%20330c0-62%2044-110%20106-110%2031%200%2059%2012%2079%2033l-34%2034c-12-12-27-19-45-19-36%200-60%2027-60%2062%200%2036%2024%2062%2060%2062%2018%200%2033-6%2045-18l34%2034c-20%2020-48%2032-79%2032-62%200-106-48-106-110z%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E",
-      "sizes": "192x192",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%230f766e%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f59e0b%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%22512%22%20height%3D%22512%22%20rx%3D%22112%22%20fill%3D%22url(%23g)%22/%3E%3Cpath%20d%3D%22M170%20330c0-62%2044-110%20106-110%2031%200%2059%2012%2079%2033l-34%2034c-12-12-27-19-45-19-36%200-60%2027-60%2062%200%2036%2024%2062%2060%2062%2018%200%2033-6%2045-18l34%2034c-20%2020-48%2032-79%2032-62%200-106-48-106-110z%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
-  ]
-}
-
-
-
+})(window)
 
