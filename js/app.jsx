@@ -328,5 +328,5 @@
   }
 
   SB5.app.mount = mount;
-})(window)
+})(window);
 
